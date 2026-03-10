@@ -1,10 +1,17 @@
-## Projects / Folders
+# Problem Solving 
 
-- **Codeforces** – Contains solutions to competitive programming problems from Codeforces.
-- **recursive** – Examples and exercises focusing on recursion in C/C++.
+A collection of **problem-solving exercises** and **algorithm implementations** for practice and learning.
+
+## Folders
+
+```
+PS
+├── Codeforces # Competitive programming solutions
+├── recursive # Recursion exercises and examples
+└── README.md
+```
 
 ## Goals
 
-- Practice problem solving in C and C++
-- Implement algorithms and data structures
-- Improve competitive programming skills
+- Practice problem-solving skills  
+- Improve competitive programming ability
