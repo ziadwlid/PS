@@ -1,17 +1,13 @@
 #include <iostream>
-#include <cmath>
 
 void equation(int a, int b){
-    int initial_val = pow(a, 0) - 1;
-    int sum {0};
-    int n = 2;
-    while (true){
-        sum +=pow(a, n);
-        n += 2;
-        if (n > b) break;
+    long long int sum {0};
+    long long power = (long long) a * a;
+    for (int n = 2; n <= b; n += 2){
+        sum += power;
+        power *= (long long)a * a;       
     }
-
-    std::cout << initial_val + sum<< "\n";
+    std::cout << sum << "\n";
 }
 
 int main (){
