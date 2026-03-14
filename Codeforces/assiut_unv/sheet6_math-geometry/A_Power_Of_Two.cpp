@@ -1,15 +1,12 @@
 #include <iostream>
+#include <cmath>
 
 int main (){
     long long  n{0};
     std::cin >> n;
-    while (n > 1){
-        if (n% 2 != 0){
-            std::cout << "NO\n";
-            return 0;
-        }
-        n/=2;
-    }
-    std::cout << "YES\n";
+    int logint = log2(n);
+    double logdouble = log2 (n);
+    if (logint == logdouble) std::cout << "YES\n";
+    else std::cout << "NO\n";
     return 0;
 }
