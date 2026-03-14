@@ -1,12 +1,15 @@
 #include <iostream>
-#include <cmath>
-bool powerOfTwo (int n){
-    return (ceil(log2(n))) == (floor(log2(n)));
-}
 
 int main (){
-    int n{0};
+    long long  n{0};
     std::cin >> n;
-    powerOfTwo(n) ? std::cout << "YES\n" : std::cout << "NO\n";
+    while (n > 1){
+        if (n% 2 != 0){
+            std::cout << "NO\n";
+            return 0;
+        }
+        n/=2;
+    }
+    std::cout << "YES\n";
     return 0;
 }
