@@ -6,15 +6,15 @@ void print_space (int space){
 }
 void print_astetisk (int asterisk){
     if (asterisk == 0) return;
-    std::cout << "* ";
+    std::cout << "*";
     print_astetisk(asterisk - 1);
 }
 void pyramid(int n, int nn){
     if (n == 0) return;
-    print_space(n-1);
-    print_astetisk(nn - n + 1);
+    print_space(n - 1);
+    print_astetisk(2 * (nn - n + 1) - 1);  
     std::cout << "\n";
-    pyramid (n - 1, nn);
+    pyramid(n - 1, nn);       
 }
 int main (){
     int n {0};
