@@ -1,5 +1,5 @@
 #include <iostream>
-long long fibonacci(int num) {
+long long fibonacci(long long num) {
     if (num == 1) return 0;
     if (num == 2) return 1;
     long long a = 0, b = 1;
@@ -28,7 +28,7 @@ bool is_prime(long long num)
 
 int main(){
     int test {0}; std::cin >> test;
-    int num {0};
+    long long num {0};
     while (test--){
         std::cin >> num;
         std::cout << (is_prime(fibonacci(num)) ? "prime\n" : "not prime\n");
