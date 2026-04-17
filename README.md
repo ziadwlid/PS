@@ -5,12 +5,19 @@ A collection of **problem-solving exercises** and **algorithm implementations** 
 
 ## Folders
 ```
-PS
-├── Codeforces
-├── codewars
-├── LeetCode
-├── OOD&OOP
-├── recursive
+PS/
+├── platforms/
+│   ├── codeforces/
+│   ├── leetcode/
+│   └── codewars/
+│
+├── topics/
+│   ├── recursion/
+│   └── dp/
+│
+├── oop/
+│   └── OOD&OOP/
+│
 └── README.md
 ```
 
