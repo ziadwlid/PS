@@ -6,9 +6,11 @@ A collection of **problem-solving exercises** and **algorithm implementations** 
 ## Folders
 ```
 PS
-├── Codeforces # Competitive programming solutions (Codeforces)
-├── codewars # Codewars challenges and solutions
-├── recursive # Recursion exercises and examples
+├── Codeforces
+├── codewars
+├── LeetCode
+├── OOD&OOP
+├── recursive
 └── README.md
 ```
 
