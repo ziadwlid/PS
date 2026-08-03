@@ -10,7 +10,7 @@ int main()
         if (str[i] != str[j]) 
             diff++;
     }
-    if (str.size() % 2 == 1 && diff < 0) diff++;
+    if (str.size() % 2 == 1 && diff < 1) diff++;
     if (diff == 1) std::cout << "YES\n";
     else std::cout << "NO\n"; 
     return 0;
