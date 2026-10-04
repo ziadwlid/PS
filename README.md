@@ -11,12 +11,22 @@ PS/
 │   ├── leetcode/
 │   └── codewars/
 │
+├── CP/
+│   └── Junior Training Sheet - Div_2/
+│       ├── A/
+│       ├── B/
+│       ├── C1/
+│       ├── C2/
+│       ├── D1/
+│       ├── D2/
+│       └── D3/
+│
+├── oop/
+│   └── Sheet_1/
+│
 ├── topics/
 │   ├── recursion/
 │   └── dp/
-│
-├── oop/
-│   └── OOD&OOP/
 │
 └── README.md
 ```
